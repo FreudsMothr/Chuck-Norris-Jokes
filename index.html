@@ -19,7 +19,7 @@
       $(document).ready(function(){
           $("#btn").click(function(){
 
-                $.getJSON("http://api.icndb.com/jokes/random?firstName=John&lastName=Doe", function(data){
+                $.getJSON("https://api.icndb.com/jokes/random?firstName=John&lastName=Doe", function(data){
                     $('#output').append('<div class="joke" style ="display:block; padding:5px; margin-top: 10px; ">'+data.value.joke+ '</div>');
                     })
                     
